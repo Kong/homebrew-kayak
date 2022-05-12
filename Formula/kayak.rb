@@ -1,3 +1,5 @@
+require_relative "lib/private_strategy"
+
 class Kayak < Formula
     desc "Kayak transformation language targeting proxy-wasm"
     homepage "https://github.com/Kong/kayak"

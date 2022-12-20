@@ -3,10 +3,10 @@ require_relative "lib/private_strategy"
 class Kayak < Formula
     desc "Kayak transformation language targeting proxy-wasm"
     homepage "https://github.com/Kong/kayak"
-    version "0.27.0"
+    version "0.28.0"
   
-    url "https://github.com/Kong/kayak/releases/download/v0.27.0/kayak-macos-x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    sha256 "522ceb9388abaaa3853ee9a7981f68d48133d2d60c832cc2d176523a62191dc1"
+    url "https://github.com/Kong/kayak/releases/download/v0.28.0/kayak-macos-x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    sha256 "11bb507eeacfdb9aa5c6e16a35a550f96e63c4f2b5d622afce220e7daa747759"
   
     def install
         bin.install "kayak"
